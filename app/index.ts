@@ -107,7 +107,14 @@ class AppContainer extends HTMLElement{
 
             this.shadowRoot?.appendChild(noticeSection);
 
-            this.shadowRoot.innerHTML += `<h1 class="gameTitle1">Lo más vendidos de Nintendo Switch</h1>`;
+            this.shadowRoot.innerHTML += `<button class="viewAllNotices">Ver todos los artículos de noticias</button>`
+
+            this.shadowRoot.innerHTML += `
+                                        <section class="gameTitle1">
+                                            <h1>Lo más vendidos de Nintendo Switch</h1>
+                                            <a>Ver la lista completa</a>
+                                        </section>
+                                        `;
 
             const gameSection1 = this.ownerDocument.createElement("section");
             gameSection1.className = "gameSection1";

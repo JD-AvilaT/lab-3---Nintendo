@@ -1,0 +1,23 @@
+section{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: auto;
+    color: rgb(73, 73, 73);
+}
+
+.down{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.down button{
+    height: 50px;
+    background-color: rgb(197, 13, 13);
+    color: white;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+}

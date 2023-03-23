@@ -13,11 +13,11 @@ class ExploreConsoles extends HTMLElement {
             <link rel="stylesheet" href="./app/components/exploreConsoles/exploreConsoles.css">
 
             <section>
-                <h2>Explora las consolas de videojuegos</h2>
+                <h1>Explora las consolas de videojuegos</h1>
                 <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_1200/ncom/en_US/switch/site-design-update/switch-family-es">
-                <div class=""down">
+                <div class="down">
                     <p>Familia Nintendo Switch</p>
-                    <button>Más detalles</button>
+                    <button><strong>Más detalles</strong></button>
                 </div>
                 
             </section>

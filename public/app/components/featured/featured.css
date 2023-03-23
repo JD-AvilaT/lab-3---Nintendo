@@ -1,0 +1,15 @@
+section{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.down{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.down p{
+    color: rgb(166, 166, 166);
+}

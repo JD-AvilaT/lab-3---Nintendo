@@ -1,0 +1,17 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 400px;
+    border-color: rgb(166, 166, 166);
+    padding: 10px;
+}
+
+p{
+    color: rgb(166, 166, 166);
+}
+
+a{
+    color: rgb(197, 13, 13);
+}

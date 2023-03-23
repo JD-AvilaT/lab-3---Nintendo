@@ -46,11 +46,13 @@ class Featured extends HTMLElement{
         if (this.shadowRoot){
             this.shadowRoot.innerHTML = 
             `
-            <link rel="stylesheet" href="./app/components/featured/feautured.css">
+                <link rel="stylesheet" href="./app/components/featured/featured.css">
                 <section>
-                <img src="${this.img}">
-                <p><strong>${this.notice}</strong></p>
-                <p>${this.plataform}</p>
+                    <img src="${this.img}">
+                    <div class="down">
+                        <h3>${this.notice}</h3>
+                        <p>${this.plataform}</p>
+                    </div>
                 </section>
             `;
         }

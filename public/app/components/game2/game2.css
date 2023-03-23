@@ -1,0 +1,21 @@
+section{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.up img{
+    width: 350px;
+}
+
+.down{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.down svg{
+    color: rgb(197, 13, 13);
+}

@@ -1,0 +1,56 @@
+section{
+    display: flex;
+    flex-direction: column;
+    color: rgb(73, 73, 73);
+
+}
+
+.cerezaImg{
+    width: 1500px;
+    margin: auto;
+    top: 100px;
+}
+
+.down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left button{
+    height: 50px;
+    background-color: rgb(197, 13, 13);
+    color: white;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right img{
+    height: 60px;
+
+}
+
+.right p{
+    width: 300px;
+}
